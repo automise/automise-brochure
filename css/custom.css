@@ -1,102 +1,223 @@
+html {
+    font-family: "Open Sans", Helvetica, Arial, serif;
+}
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #727272;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 0;
+    background-color: #ffffff;
+}
+.main-wrapper {
+	overflow: hidden;
+}
 header {
+	background: url('../img/bg.jpg') no-repeat;
+    background-position: 0% 0px;
+    /*position: relative;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro-content img {
+    min-height: 100px;
+}
+.overlay {
+	position: relative;
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#80000000', endColorstr='#80000000');
+    background: rgba(51, 51, 51, 0.5);
+    height: 800px;
+}
+.vmiddle {
+    position: relative;
+    top: 80%;
+    -webkit-transform: translateY(-80%);
+    -moz-transform: translateY(-80%);
+    -o-transform: translateY(-70%);
+    -ms-transform: translateY(-70%);
+    transform: translateY(-70%);
+}
+.intro-content {
+    text-align: center;
+}
+.navbar-fixed-top {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+nav {
+	color: white;
+}
+.text-white {
+	color: white;
+}
+.text-logo {
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 21px;
+    color: #ffffff;
+}
+.navbar-nav>li>a {
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ffffff;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: transparent !important;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+h1 { 
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+h2 {
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 300;
+    text-align: center;
+}
+h3 {
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: 300;
+}
+h4 {
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #353535;
+}
+.large {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero-section p {
+	margin-top: -25px;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: -1px;
+    margin-bottom: 35px;
+}
+.icon-bar {
+	background: white;
+}
+.btn-ghost {
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-color {
 	background: #c43234;
-	color: #fff;
+	color: white;
+	margin-left: 35px;
 }
-header hr {
-	opacity: .3;
+.btn-color:hover {
+	color: white;
 }
-section hr {
-	border-top: 1px solid #c43234;
-	opacity: .3;
+.btn-ghost:hover {
+    color: white;
+}
+.first-section h3 {
+    text-align: center;
 }
 section {
-	background: #fff;
+    padding: 40px 0;
+}
+.grey {
+    background: #fafafa;
+}
+.white {
+    background: #fff;
+}
+.second-section .col-md-6 {
+    padding: 30px 0;
+}
+.second-section .spacing {
+    padding: 40px 0;
+}
+.second-section .btn-box {
+    padding-top: 25px;
+}
+.btn-red {
+    color: #c43234 !important;
+    border-color: #c43234 !important;
 }
 footer {
-	background: #9e2e30;
-	color: #fff;
+    padding: 200px 0;
+    background: #C43234;
+    color: #fff;
 }
-.padding {
-	padding: 30px 0 50px 0;
+.text-logo {
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 21px;
+    color: #ffffff;
 }
-.logo {
-	background: url('../img/logo.png');
-	width: 100%;
-	max-width: 512px;
-	height: 128px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+.footer-hero, .footer-cta {
+    font-size: 19px;
+    line-height: 22px;
+    margin-top: 20px;
+    font-weight: 400;
 }
-header p {
-	text-align: center;
-	font-size: 18px;
+.btn-white {
+    background: #fff;
+    border-color: #fff;
+    color: #333;
 }
-p.tagline {
-	font-size: 20px;
-	line-height: 33px;
-	width: 55%;
-	padding: 40px 0;
-	margin: 0 auto;
+.footer-copy {
+    margin-top: 100px;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: left;
 }
-.col {
-	text-align: center;
+.left-align {
+    margin-top: 0;
+    text-align: left !important;
 }
-.icon {
-	font-size: 132px;
+.sub-footer {
+    margin-top: 0;
+    padding-top: 0;
+    background: #9E2E30;
+    color: #fff;
 }
-section h3 {
-	text-align: center;
-	color: #c43234;
-	font-size: 38px;
-	padding: 0 0 20px 0;
+.sub-footer .footer-copy {
+    margin-top: 20px;
 }
-section img {
-	width: 100%;
-	max-width: 250px;
+.sub-footer .no-margin {
+    margin: 0 0 20px 0;
 }
-section .image-wrapper {
-	text-align: center;
-}
-section p {
-	padding: 20px 0;
-	text-align: center;
-	width: 100%;
-	max-width: 375px;
-	margin: 0 auto;
-	font-size: 18px;
-}
-footer ul {
-	padding: 0;
-	text-align: center;
-	width: 100%;
-}
-footer ul li {
-	list-style: none;
-	display: inline;
-}
-footer li a {
-	font-size: 24px;
-	color: #fff;
-}
-footer a {
-	color: #fff;
-	text-decoration: underline;
-	margin-right: 50px;
-}
-footer a:hover {
-	color: #fff;
-}
-@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
-  .logo{
-    background-image: url(../img/logo@2x.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-}
-
-@media(max-width: 720px) {
-	p.tagline {
-		width: 80%;
-	}
+.nomargin {
+    margin-bottom: 0;
 }
