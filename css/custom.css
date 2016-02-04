@@ -16,9 +16,23 @@ body {
 }
 .header-wrapper {
 }
-header {
-	background: url('../img/bg.jpg') no-repeat center center;
-    background-size: cover;
+@media(min-width: 1400px) {
+    header {
+        background: url('../img/automise-hero-image.jpg') no-repeat center center;
+        background-size: cover;
+    }
+}
+@media(max-width: 1400px) {
+    header {
+        background: url('../img/automise-hero-image-1400.jpg') no-repeat center center;
+        background-size: cover;
+    }
+}
+@media(max-width: 700px) {
+    header {
+        background: url('../img/automise-hero-image-700.jpg') no-repeat center center;
+        background-size: cover;
+    }
 }
 .intro-content img {
     min-height: 100px;
@@ -28,7 +42,7 @@ header {
     zoom: 1;
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#80000000', endColorstr='#80000000');
     background: rgba(51, 51, 51, 0.5);
-    height: 800px;
+    height: 490px;
 }
 .vmiddle {
     position: relative;
@@ -57,16 +71,21 @@ nav {
 .text-white {
 	color: white;
 }
-.text-logo {
-    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 19px;
-    line-height: 21px;
-    color: #ffffff;
+.image-logo img {
+    margin-top: -5px;
+    width: 150px;
 }
+/*.text-logo {*/
+    /*font-family: 'Open Sans',Helvetica,Arial,sans-serif;*/
+    /*font-style: normal;*/
+    /*font-weight: 700;*/
+    /*letter-spacing: 2px;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 19px;*/
+    /*line-height: 21px;*/
+    /*color: #ffffff;*/
+    /*background: url('../img/automise-logo.png') no-repeat;*/
+/*}*/
 .navbar-nav>li>a {
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
     font-style: normal;
