@@ -14,12 +14,11 @@ body {
 .main-wrapper {
 	overflow: hidden;
 }
+.header-wrapper {
+}
 header {
-	background: url('../img/bg.jpg') no-repeat;
-    background-position: 0% 0px;
-    /*position: relative;*/
+	background: url('../img/bg.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
 }
 .intro-content img {
     min-height: 100px;
