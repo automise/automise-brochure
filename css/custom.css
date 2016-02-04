@@ -32,12 +32,12 @@ header {
 }
 .vmiddle {
     position: relative;
-    top: 80%;
-    -webkit-transform: translateY(-80%);
-    -moz-transform: translateY(-80%);
-    -o-transform: translateY(-70%);
-    -ms-transform: translateY(-70%);
-    transform: translateY(-70%);
+    top: 91%;
+    -webkit-transform: translateY(-91%);
+    -moz-transform: translateY(-91%);
+    -o-transform: translateY(-91%);
+    -ms-transform: translateY(-91%);
+    transform: translateY(-91%);
 }
 .intro-content {
     text-align: center;
