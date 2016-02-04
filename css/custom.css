@@ -78,6 +78,10 @@ body {
     color: #c43234 !important;
     border-color: #c43234 !important;
 }
+.btn-ghost__grey {
+    color: #727272 !important;
+    border-color: #727272 !important;
+}
 nav {
 	color: white;
 }
@@ -87,6 +91,9 @@ nav {
 .image-logo img {
     margin-top: -5px;
     width: 150px;
+}
+.image-logo__footer img {
+    width: 250px;
 }
 /*.text-logo {*/
     /*font-family: 'Open Sans',Helvetica,Arial,sans-serif;*/
