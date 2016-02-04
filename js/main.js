@@ -12,11 +12,14 @@ $(document).ready(function(){
     else if($(window).width() > 1250) {
         $('.overlay').css('height', '800');
     }
-    else if($(window).width() < 965) {
+    else if($(window).width() > 700) {
         $('.overlay').css('height', '600');
     } 
-    else if($(window).width() < 700) {
+    else if($(window).width() > 500) {
         $('.overlay').css('height', '400');
+    }
+    else {
+        $('.overlay').css('height', '350');
     }
     $(window).resize(function() {
         if($(window).width() > 1650) {
@@ -25,11 +28,14 @@ $(document).ready(function(){
         else if($(window).width() > 1250) {
             $('.overlay').css('height', '800');
         }
-        else if($(window).width() < 965) {
+        else if($(window).width() > 700) {
             $('.overlay').css('height', '600');
         } 
-        else if($(window).width() < 700) {
+        else if($(window).width() > 500) {
             $('.overlay').css('height', '400');
+        }
+        else {
+            $('.overlay').css('height', '350');
         }
     });
 });
