@@ -94,10 +94,10 @@ nav {
     font-size: 11px;
     line-height: 15px;
     color: #ffffff;
-    -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .5s ease;
+    /*-webkit-transition: all .5s ease;*/
+    /*-o-transition: all .5s ease;*/
+    /*-moz-transition: all .5s ease;*/
+    /*transition: all .5s ease;*/
 }
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
     color: #ffffff;
