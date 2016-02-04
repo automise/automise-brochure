@@ -165,7 +165,8 @@ h4 {
     }
     .hero-section p {
         font-size: 16px;
-        line-height: 22px;
+        line-height: 28px;
+        letter-spacing: 0;
     }
     .hero-section p br{
         display: none;
