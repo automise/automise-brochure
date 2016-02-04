@@ -64,16 +64,6 @@ body {
     -moz-transition: all .5s ease;
     transition: all .5s ease;
 }
-@media(max-width: 700px) {
-    .navbar {
-        background: #c43234;
-        height: 50px;
-        padding-top: 0px;
-    }
-    .navbar-right, .collapse {
-        background: #c43234;
-    }
-}
 .btn-ghost__red {
     color: #c43234 !important;
     border-color: #c43234 !important;
