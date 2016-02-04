@@ -105,6 +105,7 @@ nav {
     border-bottom: 1px solid white;
     padding-bottom: 5px;
 }
+
 h1 { 
     font-size: 48px;
     line-height: 52px;
@@ -144,11 +145,30 @@ h4 {
     margin-bottom: 35px;
 }
 @media(max-width: 700px) {
+    .vmiddle {
+        top: 100%;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 0 26px;
+    }
     .hero-section p {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .hero-section p br{
+        display: none;
+    }
+    .hero-section p br:before{
+        content: "^";
     }
     h1 {
-        font-size: 38px;
+        font-size: 33px;
+        line-height: 34px;
+        padding-bottom: 15px;
+    }
+    .hero-section .btn-box {
+        display: none;
     }
 }
 .icon-bar {
