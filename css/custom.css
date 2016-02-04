@@ -156,6 +156,12 @@ h4 {
         font-size: 16px;
         line-height: 22px;
     }
+    .hero-section p br{
+        display: none;
+    }
+    .hero-section p br:before{
+        content: "^";
+    }
     h1 {
         font-size: 33px;
         line-height: 34px;
