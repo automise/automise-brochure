@@ -74,6 +74,10 @@ body {
         background: #c43234;
     }
 }
+.btn-ghost__red {
+    color: #c43234 !important;
+    border-color: #c43234 !important;
+}
 nav {
 	color: white;
 }
