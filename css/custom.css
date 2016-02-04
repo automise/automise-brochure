@@ -143,6 +143,14 @@ h4 {
     letter-spacing: -1px;
     margin-bottom: 35px;
 }
+@media(max-width: 700px) {
+    .hero-section p {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+}
 .icon-bar {
 	background: white;
 }
