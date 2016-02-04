@@ -173,7 +173,7 @@ h4 {
     .hero-section p br:before{
         content: "^";
     }
-    h1 {
+    h1, h2, h3 {
         font-size: 33px;
         line-height: 34px;
         padding-bottom: 15px;
