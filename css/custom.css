@@ -105,6 +105,7 @@ nav {
     border-bottom: 1px solid white;
     padding-bottom: 5px;
 }
+
 h1 { 
     font-size: 48px;
     line-height: 52px;
@@ -145,10 +146,16 @@ h4 {
 }
 @media(max-width: 700px) {
     .hero-section p {
-        font-size: 18px;
+        font-size: 14px;
+        line-height: 20px;
     }
     h1 {
-        font-size: 38px;
+        font-size: 28px;
+        line-height: 34px;
+        padding-bottom: 15px;
+    }
+    .hero-section .btn-box {
+        display: none;
     }
 }
 .icon-bar {
