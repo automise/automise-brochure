@@ -74,6 +74,11 @@ header {
     color: #727272 !important;
     border-color: #727272 !important;
 }
+.btn-ghost__grey:hover {
+    color: #C43234 !important;
+    border-color: #C43234 !important;
+    background: transparent !important;
+}
 nav {
 	color: white;
 }
@@ -154,7 +159,6 @@ h4 {
 	margin-top: -25px;
     font-size: 21px;
     line-height: 27px;
-    letter-spacing: -1px;
     margin-bottom: 35px;
 }
 @media(max-width: 700px) {
@@ -192,17 +196,23 @@ h4 {
     background: transparent;
     color: #ffffff;
     border-color: #ffffff;
+    transition: all ease .5s;
 }
 .btn-color {
 	background: #c43234;
 	color: white;
 	margin-left: 35px;
+    transition: all ease .5s;
 }
 .btn-color:hover {
 	color: white;
+    background: #9E2E30;
+    transition: all ease .5s;
 }
 .btn-ghost:hover {
-    color: white;
+    color: #C43234;
+    background: #fff;
+    transition: all ease .5s;
 }
 .first-section h3 {
     text-align: center;
@@ -245,10 +255,16 @@ footer {
     color: #ffffff;
 }
 .footer-hero, .footer-cta {
-    font-size: 19px;
-    line-height: 22px;
-    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
     font-weight: 400;
+}
+.footer-cta a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-cta a:hover {
+    text-decoration: underline;
 }
 .btn-white {
     background: #fff;
