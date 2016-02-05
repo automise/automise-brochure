@@ -161,6 +161,23 @@ h4 {
     line-height: 27px;
     margin-bottom: 35px;
 }
+.sub-footer ul {
+    float: right;
+    margin-top: -60px;
+}
+.sub-footer ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 15px;
+}
+.sub-footer ul li a {
+    color: #fff;
+    font-size: 22px;
+}
+.sub-footer ul li a:hover { 
+    color: #fff;
+    text-decoration: none;
+}
 @media(max-width: 700px) {
     .vmiddle {
         top: 100%;
