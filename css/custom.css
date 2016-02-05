@@ -161,7 +161,7 @@ h4 {
     line-height: 27px;
     margin-bottom: 35px;
 }
-@media(max-width: 700px) {
+@media(max-width: 970px) {
     .sub-footer ul {
         float: none !important;
         margin-top: 0 !important;
