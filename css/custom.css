@@ -14,27 +14,9 @@ body {
 .main-wrapper {
 	overflow: hidden;
 }
-.header-wrapper {
-}
 header {
-}
-@media(min-width: 1400px) {
-    header {
-        background: url('../img/automise-hero-image.jpg') no-repeat center center;
-        background-size: cover;
-    }
-}
-@media(max-width: 1400px) {
-    header {
-        background: url('../img/automise-hero-image-1400.jpg') no-repeat center center;
-        background-size: cover;
-    }
-}
-@media(max-width: 700px) {
-    header {
-        background: url('../img/automise-hero-image-700.jpg') no-repeat center center;
-        background-size: cover;
-    }
+    background: url('../img/automise-hero-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 .intro-content img {
     min-height: 100px;
@@ -108,7 +90,6 @@ nav {
     border-bottom: 1px solid white;
     padding-bottom: 5px;
 }
-
 h1 { 
     font-size: 48px;
     line-height: 52px;
