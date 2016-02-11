@@ -15,11 +15,8 @@ body {
 	overflow: hidden;
 }
 header {
-	background: url('../img/bg.jpg') no-repeat;
-    background-position: 0% 0px;
-    /*position: relative;*/
+    background: url('../img/automise-hero-image-1400.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
 }
 .intro-content img {
     min-height: 100px;
@@ -27,18 +24,17 @@ header {
 .overlay {
 	position: relative;
     zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#80000000', endColorstr='#80000000');
-    background: rgba(51, 51, 51, 0.5);
-    height: 800px;
+    background: linear-gradient(rgba(51, 51, 51, .5), rgba(51, 51, 51, .6));
+    height: 490px;
 }
 .vmiddle {
     position: relative;
-    top: 80%;
-    -webkit-transform: translateY(-80%);
-    -moz-transform: translateY(-80%);
-    -o-transform: translateY(-70%);
-    -ms-transform: translateY(-70%);
-    transform: translateY(-70%);
+    top: 91%;
+    -webkit-transform: translateY(-91%);
+    -moz-transform: translateY(-91%);
+    -o-transform: translateY(-91%);
+    -ms-transform: translateY(-91%);
+    transform: translateY(-91%);
 }
 .intro-content {
     text-align: center;
@@ -52,21 +48,31 @@ header {
     -moz-transition: all .5s ease;
     transition: all .5s ease;
 }
+.btn-ghost__red {
+    color: #c43234 !important;
+    border-color: #c43234 !important;
+}
+.btn-ghost__grey {
+    color: #727272 !important;
+    border-color: #727272 !important;
+}
+.btn-ghost__grey:hover {
+    color: #C43234 !important;
+    border-color: #C43234 !important;
+    background: transparent !important;
+}
 nav {
 	color: white;
 }
 .text-white {
 	color: white;
 }
-.text-logo {
-    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 19px;
-    line-height: 21px;
-    color: #ffffff;
+.image-logo img {
+    margin-top: -5px;
+    width: 150px;
+}
+.image-logo__footer img {
+    width: 250px;
 }
 .navbar-nav>li>a {
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
@@ -77,10 +83,6 @@ nav {
     font-size: 11px;
     line-height: 15px;
     color: #ffffff;
-    -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .5s ease;
 }
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
     color: #ffffff;
@@ -123,8 +125,65 @@ h4 {
 	margin-top: -25px;
     font-size: 21px;
     line-height: 27px;
-    letter-spacing: -1px;
     margin-bottom: 35px;
+}
+@media(max-width: 970px) {
+    .sub-footer ul {
+        float: none !important;
+        margin-top: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+.sub-footer ul {
+    float: right;
+    margin-top: -60px;
+}
+.sub-footer ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 15px;
+}
+.sub-footer ul li a {
+    color: #fff;
+    font-size: 22px;
+}
+.sub-footer ul li a:hover { 
+    color: #fff;
+    text-decoration: none;
+}
+.meet-the-team a {
+    color: #353535;  
+}
+.meet-the-team a:hover {
+    text-decoration: none;
+}
+@media(max-width: 700px) {
+    .vmiddle {
+        top: 100%;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 0 26px;
+    }
+    .hero-section p {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0;
+    }
+    .hero-section p br{
+        display: none;
+    }
+    .hero-section p br:before{
+        content: "^";
+    }
+    h1, h2, h3 {
+        font-size: 33px;
+        line-height: 34px;
+        padding-bottom: 15px;
+    }
+    .hero-section .btn-box {
+        display: none;
+    }
 }
 .icon-bar {
 	background: white;
@@ -133,17 +192,23 @@ h4 {
     background: transparent;
     color: #ffffff;
     border-color: #ffffff;
+    transition: all ease .5s;
 }
 .btn-color {
 	background: #c43234;
 	color: white;
 	margin-left: 35px;
+    transition: all ease .5s;
 }
 .btn-color:hover {
 	color: white;
+    background: #9E2E30;
+    transition: all ease .5s;
 }
 .btn-ghost:hover {
-    color: white;
+    color: #C43234;
+    background: #fff;
+    transition: all ease .5s;
 }
 .first-section h3 {
     text-align: center;
@@ -186,10 +251,16 @@ footer {
     color: #ffffff;
 }
 .footer-hero, .footer-cta {
-    font-size: 19px;
-    line-height: 22px;
-    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
     font-weight: 400;
+}
+.footer-cta a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-cta a:hover {
+    text-decoration: underline;
 }
 .btn-white {
     background: #fff;
