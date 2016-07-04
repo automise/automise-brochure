@@ -33,13 +33,9 @@ header {
 }
 @media(max-width: 700px) {
     header {
-        background: url('../img/automise-hero-image-700.jpg') no-repeat center center;
+        background: url('../img/automise-hero-image-1400.jpg') no-repeat center center;
         background-size: cover;
     }
-=======
-    background: url('../img/automise-hero-image-1400.jpg') no-repeat center center;
-    background-size: cover;
->>>>>>> e2ed03c8cdec64bf23c48c9562c261b219bbafac
 }
 .intro-content img {
     min-height: 100px;
@@ -47,11 +43,7 @@ header {
 .overlay {
 	position: relative;
     zoom: 1;
-<<<<<<< HEAD
-    background: linear-gradient(rgba(51, 51, 51, .5), rgba(51, 51, 51, .6));
-=======
     background: linear-gradient(rgba(51, 51, 51, .1), rgba(51, 51, 51, .4));
->>>>>>> e2ed03c8cdec64bf23c48c9562c261b219bbafac
     height: 490px;
 }
 .vmiddle {
