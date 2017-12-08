@@ -110,7 +110,7 @@ nav {
     padding-bottom: 5px;
 }
 
-h1 { 
+h1 {
     font-size: 48px;
     line-height: 52px;
     font-weight: 300;
@@ -167,12 +167,12 @@ h4 {
     color: #fff;
     font-size: 22px;
 }
-.sub-footer ul li a:hover { 
+.sub-footer ul li a:hover {
     color: #fff;
     text-decoration: none;
 }
 .meet-the-team a {
-    color: #353535;  
+    color: #353535;
 }
 .meet-the-team a:hover {
     text-decoration: none;
@@ -312,3 +312,4 @@ footer {
 .nomargin {
     margin-bottom: 0;
 }
+
