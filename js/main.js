@@ -38,20 +38,9 @@ $(document).ready(function(){
             $('.overlay').css('height', '350');
         }
     });
+
 });
 function scrollToAnchor(aid){
     var aTag = $("a[name='"+ aid +"']");
     $('html,body').animate({scrollTop: aTag.offset().top - 85},'slow');
 }
-
-function face(id) {
-    $('.team-'+ id).fadeIn();
-    $('.team-'+ id).attr('src', "build/img/"+ id +"-face.jpg");
-
-}
-function robot(id) {
-    $('.team-'+ id).fadeOut();
-    $('.team-'+ id).attr('src', "build/img/"+ id +"-robot.png");
-}
-
-
