@@ -50,10 +50,8 @@ function face(id) {
 
 }
 function robot(id) {
-    $('.team-'+ id).fadeIn();
+    $('.team-'+ id).fadeOut();
     $('.team-'+ id).attr('src', "build/img/"+ id +"-robot.png");
-
 }
-
 
 
