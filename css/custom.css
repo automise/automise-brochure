@@ -110,7 +110,7 @@ nav {
     padding-bottom: 5px;
 }
 
-h1 { 
+h1 {
     font-size: 48px;
     line-height: 52px;
     font-weight: 300;
@@ -167,12 +167,12 @@ h4 {
     color: #fff;
     font-size: 22px;
 }
-.sub-footer ul li a:hover { 
+.sub-footer ul li a:hover {
     color: #fff;
     text-decoration: none;
 }
 .meet-the-team a {
-    color: #353535;  
+    color: #353535;
 }
 .meet-the-team a:hover {
     text-decoration: none;
@@ -311,4 +311,60 @@ footer {
 }
 .nomargin {
     margin-bottom: 0;
+}
+#jay-bg {
+    background-image: url('../img/jay-face.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+#jay-bg:hover {
+    background-image: url('../img/jay-robot.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+#simon-bg {
+    background-image: url('../img/simon-face.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+#simon-bg:hover {
+    background-image: url('../img/simon-robot.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+#luke-bg {
+    background-image: url('../img/luke-face.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+#luke-bg:hover {
+    background-image: url('../img/luke-robot.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+#dan-bg {
+    background-image: url('../img/dan-face.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
+}
+#dan-bg:hover {
+    background-image: url('../img/dan-robot.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center;
+    transition: background 0.5s ease-in-out;
 }
