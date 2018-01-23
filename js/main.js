@@ -14,7 +14,7 @@ $(document).ready(function(){
     }
     else if($(window).width() > 700) {
         $('.overlay').css('height', '600');
-    } 
+    }
     else if($(window).width() > 500) {
         $('.overlay').css('height', '400');
     }
@@ -30,7 +30,7 @@ $(document).ready(function(){
         }
         else if($(window).width() > 700) {
             $('.overlay').css('height', '600');
-        } 
+        }
         else if($(window).width() > 500) {
             $('.overlay').css('height', '400');
         }
@@ -38,6 +38,7 @@ $(document).ready(function(){
             $('.overlay').css('height', '350');
         }
     });
+
 });
 function scrollToAnchor(aid){
     var aTag = $("a[name='"+ aid +"']");
