@@ -176,6 +176,9 @@ h4 {
 .meet-the-team a:hover {
     text-decoration: none;
 }
+.circle-border {
+    border-radius: 50%;
+}
 @media(max-width: 700px) {
     .vmiddle {
         top: 100%;
