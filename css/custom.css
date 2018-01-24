@@ -26,13 +26,13 @@ header {
 }
 @media(max-width: 1400px) {
     header {
-        background: url('../img/automise-hero-image-1400.jpg') no-repeat center center;
+        background: url('../img/automise-hero-image-1400-optim.jpg') no-repeat center center;
         background-size: cover;
     }
 }
 @media(max-width: 700px) {
     header {
-        background: url('../img/automise-hero-image-1400.jpg') no-repeat center center;
+        background: url('../img/automise-hero-image-1400-optim.jpg') no-repeat center center;
         background-size: cover;
     }
 }
